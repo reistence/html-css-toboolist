@@ -5,14 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Tobbolist</title>
+    <title>Toboolist</title>
   </head>
   <body>
     <!-- HEADER -->
+    <header>
+      <img src="img/Logo.png" alt="Logo Toboolist" />
+      <span>Toboolist</span>
+    </header>
     <!-- /HEADER -->
+    <!-- MAIN -->
     <!-- NAVBAR -->
-    <!-- /NAVBAR -->
-    <!-- CONTENT -->
-    <!-- /CONTENT -->
+    <div class="container">
+      <nav>
+        <button id="task">Add Task</button>
+        <button id="section">Add Section</button>
+      </nav>
+      <!-- /NAVBAR -->
+      <!-- CONTENT -->
+      <div id="list">
+        <ul>
+          <li id="main-item">&#9662; New Task</li>
+          <ul>
+            <li>
+              <span class="checked">&check;</span> Quarterly Newsletters
+              <span class="flag editorial">Editorial</span>
+            </li>
+          </ul>
+          <li id="main-item">&#9662; Today</li>
+          <ul>
+            <li>
+              <span class="checked">&check;</span> Recruiting blog post
+              <span class="flag editorial">Editorial</span>
+            </li>
+            <li>
+              <span class="checked">&check;</span> Mobile app launch
+              <span class="flag Q1">Q1 Goals</span>
+            </li>
+            <li>
+              <span class="unchecked">&cross;</span> Interview John H.
+              <span class="flag recruiting">Recruiting</span>
+            </li>
+            <li>
+              <span class="checked">&check;</span> Summit update to mobile
+              storefronts
+              <span class="flag mobile">Mobile</span>
+            </li>
+          </ul>
+          <li id="main-item">&#9662; Upcoming</li>
+          <ul>
+            <li>
+              <span class="unchecked">&cross;</span> Schedule meeting with Alex
+            </li>
+            <li>
+              <span class="checked">&check;</span> Homepage refresh
+              <span class="flag website">Website</span>
+            </li>
+            <li>
+              <span class="checked">&check;</span> Onboard new sales team
+              memebers <span class="flag sales">Sales</span>
+            </li>
+            <li>
+              <span class="checked">&check;</span> Review editorial calender
+              <span class="flag editorial">Editorial</span>
+            </li>
+          </ul>
+        </ul>
+      </div>
+      <!-- /CONTENT -->
+    </div>
+    <!--/ MAIN -->
   </body>
 </html>
